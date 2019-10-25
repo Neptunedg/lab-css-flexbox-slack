@@ -70,7 +70,6 @@ border-radius: 4px;
 /**DESKTOP**/
 @media only screen and (min-width: 768px) {
     body {
-      background-color: lightblue;
     }
 
     li{
@@ -87,3 +86,52 @@ border-radius: 4px;
         }
   }
   
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20vh;
+  padding-left: 10vh;
+}
+nav {
+  position: fixed;
+  background-color: white;
+  padding: 0%;
+  height: 10%;
+  top: 0vh;
+  width: 100%;
+  margin: 0%;
+}
+#logo {
+  width: 20vh;
+  height: 10vh;
+}
+
+#menu {
+  padding: 30px;
+}
+#fnav {
+  display: flex;
+  justify-content: space-between;
+}
+#where {
+  cursor: text;
+  width: 70%;
+  height: 50%;
+}
+
+#getstarted {
+  width: 70%;
+}
+#email {
+  width: 70%;
+  height: 50px;
+}
+#already {
+  cursor: text;
+  width: 40%;
+}
+#signin {
+  width: 15%;
+}
+#img1 {
+  width: 80%;
+}
